@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E157C14-FACB-582E-0946-52F16210A246" name="T_RHSTU_ENDERECO_PACIENTE">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="5FDA6C7F-FC57-AF6E-2773-AB74C9070592">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="0DA9A4F5-3F8A-6E04-CC0C-6F02B9D7A62A">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="0617CF5C-3C75-937F-26FA-991A7FA50705">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="C1208FD4-D4EB-A1FF-CEA5-8798D13D7728">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="D1915A79-D127-876E-5948-057EC6EFBBB0">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="3A303FE3-A194-5B4D-16ED-6E937A278EE7">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="DACFB774-4940-4568-F824-9D0A6EC2C0B9">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="EF546429-D8A6-10AB-0F4A-7BB14CAA8B03">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="A602545B-CBE3-6947-7480-B65176218F00">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="3CFDF2E9-3D3A-55A4-5403-A1B5EDF8B5DB">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:18:07 UTC</createdTime>
+<generatorID>EB7C0D8A-427C-729C-0F60-075F50CF5431</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<referedAttribute>6DC972EF-8DE6-835B-D283-8E8906CE44E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA5776BB-1045-FA70-2AD4-DFE83EE4CB0D" name="T_RHSTU_PACIENTE PK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 23:25:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FDA6C7F-FC57-AF6E-2773-AB74C9070592</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

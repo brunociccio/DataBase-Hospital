@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE3A6B28-58BD-7CFA-7AA0-2E3335E534EB" name="T_RHSTU_SISTEMA">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>1EE73A01-1432-91BE-2835-3C30B7EE9384</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNCIONARIO" id="D68EEBDD-6378-10D1-79E9-D31C256F2FBB">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>372E3A47-7430-1D5F-EFB7-0EF50A7BD41D</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="87FC5B47-503D-6D59-35AE-0E7C02939750">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>79A6CFC1-08BF-8E18-495B-10E00FF0B2BA</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_LOGIN" id="F82C86DF-0A3A-B45C-C17E-2CF985EA4CC0">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>DE72BC02-8854-C37B-5CC9-594CFAAD21AE</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_SENHA" id="30D699A4-FB88-40E5-8C4E-AC764165E0EC">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>B9C44D11-8011-3858-EEE3-60111EB16FAA</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFC223D7-E384-DCC1-9EA4-7ED880E2EC9B" name="T_RHSTU_SISTEMA_PK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>DEB341DD-9472-AB55-CDF2-8515EAD4C4E3</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68EEBDD-6378-10D1-79E9-D31C256F2FBB"/>
+<colUsage columnID="87FC5B47-503D-6D59-35AE-0E7C02939750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

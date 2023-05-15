@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24B58E1-6603-DA08-7A67-D3D9C2FB7D4E" name="T_RHSTU_CONTATO_PACIENTE">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>BE54EBAE-1779-7E4C-BAF5-97AC56E44788</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PACIENTE" id="9CBA0CEB-9EB5-9315-2C11-0EA51602254F">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>46514E7C-0942-5786-AF69-ACBB31095311</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONTATO" id="1864FC0F-FEFE-98B6-3823-FF4BE24CA29B">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>324834B9-904C-C28C-A29A-A9FAC84906BC</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TP_CONTATO" id="27895D47-57C7-AAC9-D985-746B4ED6CF28">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>98CAF4D8-6DF2-D6C3-B754-8A15C153AC2D</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CONTATO" id="31010829-E1DB-C160-9570-0A47A9A48219">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>53F2162F-9ED9-E449-0BC2-509FDA64C5A8</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDI" id="FCB2AF18-C72D-C6B1-C480-B91930C9EF3A">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>DB2218D9-9AFA-9936-C55E-8A5D16F8EE3B</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDD_1" id="A492A683-71E4-ED6F-130A-A6891847C43C">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>ED9038AF-E389-D86D-53B6-99A7E03E8D23</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="715089F8-4EF7-A077-5EEE-E9A4BCE67A0F">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>E06E25D0-AF35-C804-39A4-B98522B06C82</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_RHSTU_PACIENTE_ID_PACIENTE" id="6BD4FAD0-8AF9-9ADD-8C93-600B5FF931FC">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>59F7487A-956B-9CB7-FE03-660216E42185</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92CA843F-456F-BC20-D900-4604A6F39C7C" referredColumn="E7996AA5-ABED-5236-E18B-A56F3A9BCEE4"/>
+</associations>
+</Column>
+<Column name="T_RHSTU_TIPO_CONTATO_ID_TP_CONTATO" id="0C25B8BB-F4AF-3D3D-A030-772F23D5C5F0">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>76E01761-265A-2384-4414-26336BAFAE3D</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E031C6FC-0CA9-CFE5-60F6-82D8079CA8DF" referredColumn="979BF1E5-4DDA-A5E8-8194-58F84905204C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79FE3A6F-9BC8-C2B3-B312-E7AD76E64121" name="T_RHSTU_CONTATO_PACIENTE_PK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>E0610FEE-192B-F0E7-D123-F51093371CCF</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBA0CEB-9EB5-9315-2C11-0EA51602254F"/>
+<colUsage columnID="1864FC0F-FEFE-98B6-3823-FF4BE24CA29B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C1F18A8-54E8-4E11-798B-91DA400574EC" name="T_RHSTU_CONTATO_PACIENTE_T_RHSTU_PACIENTE_FK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>64B950B1-4DD2-14E9-48FB-74B907528879</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD4FAD0-8AF9-9ADD-8C93-600B5FF931FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEB4BD87-8BCC-154C-64A8-908003F51EB4" name="T_RHSTU_CONTATO_PACIENTE_T_RHSTU_TIPO_CONTATO_FK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 02:20:55 UTC</createdTime>
+<generatorID>D4A32774-3BB1-DC7A-BEF3-C8C33726F792</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C25B8BB-F4AF-3D3D-A030-772F23D5C5F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

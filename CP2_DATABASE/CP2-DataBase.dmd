@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CHECKPOINT2-BRUNO-JOSE" id="DFA1414D-A5FD-8F85-197D-69DEB071B3D5" version="3.5">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-10 21:44:09 UTC</createdTime>
+<ownerDesignName>RESOLUCAO_JOSE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DFA1414D-A5FD-8F85-197D-69DEB071B3D5</designId>
+</OSDM_Design>

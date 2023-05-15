@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A10A2A9-1DFF-904F-8B4F-C6AC11B7B78B" name="T_RHSTU_CARTAO">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:45:32 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="F88319EB-B5F0-980F-7845-5DE71F008745">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:52:43 UTC</createdTime>
+<generatorID>552CC962-61C7-27EC-49A9-4B9A7DAEEF27</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<referedAttribute>2A0C3AFE-4489-1487-EC2E-A12F0CB6792E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_PAGAMENTO" id="9368A4CB-809C-2B88-999F-26A95206E0D7">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:52:43 UTC</createdTime>
+<generatorID>552CC962-61C7-27EC-49A9-4B9A7DAEEF27</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<referedAttribute>8E820D61-6259-47AF-898B-E4A29D283553</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_C_CREDITO" id="EBBC6939-241D-1D65-81C6-C8204E425A1B">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:54:17 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_C_DEBITO" id="E8890254-FEFA-4514-D1D1-4CB6F968170E">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:54:53 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NNR_CARTAO" id="7865F26D-6AA2-A0D1-3EED-523BCE5E7C4D">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:55:27 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="A6556550-ED44-2574-7E36-B241B1BDF754">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:55:27 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="EF4C8A70-471D-9769-20BB-ECC61CFC15C8">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:56:05 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENCIMENTO" id="0E4238FB-578D-14B9-7FB8-02EEFCC34A3A">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:56:06 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BANDEIRA" id="A95FEB28-DD7D-637E-E042-B75C22BC61B3">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:56:06 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="311FB8D1-7D60-10FA-26DC-647E4288049A" name="T_RHSTU_CARTAO PK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 15:57:11 UTC</createdTime>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<engineerTo>
+<item key="C8F4F731-7A56-9651-D38D-9BDE94FAC05C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBBC6939-241D-1D65-81C6-C8204E425A1B</attributeRef>
+<attributeRef>E8890254-FEFA-4514-D1D1-4CB6F968170E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

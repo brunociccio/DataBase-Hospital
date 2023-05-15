@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="042D993D-4FB8-ECFA-4F9E-6D79D6CF4C76" name="T_RHSTU_SISTEMA_FUNCIONARIO">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>76DA6C2F-1E5B-C42F-3BDC-3A1F41C5C8B9</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNCIONARIO" id="A55D32D3-F348-6DF2-6BDB-AD1CE0FB9784">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>29EDB472-D777-A3E9-1B76-60F64BDD9DC9</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="B33B6B9F-BC2D-1B9D-6301-F0BBCCB11A78">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>45564C7F-E816-59DA-0979-7CA941876630</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CONSUMO_PACIENTE" id="F35FE723-14AB-7030-9FA3-EDC9A1A17E13">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>01044238-1FEA-13DE-A970-29242B55F5EF</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_FUNCIONARIO_INATIVO" id="F3FCFE4E-647E-744A-6E8E-2967CA7462BB">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>0B87E122-04F7-58BB-FC50-237A18AA2EF8</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<deprecated>true</deprecated>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_RHSTU_SISTEMA_ID_FUNCIONARIO" id="B0BE3109-38D3-2B26-A64E-1FE5B7EBCD89">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>FB1601F5-F171-A0E2-EB00-505A6685A23E</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="761206D8-8277-0AF6-2AD7-2C0BCC7C5DEA" referredColumn="D68EEBDD-6378-10D1-79E9-D31C256F2FBB"/>
+</associations>
+</Column>
+<Column name="T_RHSTU_SISTEMA_ID_PACIENTE" id="FEA6CFCF-B79F-2E55-060F-B3E3DD0434F4">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>0C70AF75-12F2-8DCF-6C25-3924269F7205</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="761206D8-8277-0AF6-2AD7-2C0BCC7C5DEA" referredColumn="87FC5B47-503D-6D59-35AE-0E7C02939750"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C53E567-E229-365D-935D-5B07BF416EA6" name="T_RHSTU_SISTEMA_FUNCIONARIO_PK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>EC96F282-7E89-EBEE-416D-3240C02988F0</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A55D32D3-F348-6DF2-6BDB-AD1CE0FB9784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E9534CE-B0D8-F793-63DF-106E5F0ACF74" name="T_RHSTU_SISTEMA_FUNCIONARIO_T_RHSTU_SISTEMA_FK">
+<createdBy>joseduarte</createdBy>
+<createdTime>2023-05-11 16:05:08 UTC</createdTime>
+<generatorID>E98BC7F5-A068-DACF-A49D-9E1EBAA2E7E9</generatorID>
+<ownerDesignName>CHECKPOINT2-BRUNO-JOSE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0BE3109-38D3-2B26-A64E-1FE5B7EBCD89"/>
+<colUsage columnID="FEA6CFCF-B79F-2E55-060F-B3E3DD0434F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
